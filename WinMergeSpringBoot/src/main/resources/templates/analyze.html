@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Resultado da Comparação</title>
+    <link rel="stylesheet" th:href="@{/css/style.css}">
+</head>
+<body>
+<div class="container">
+    <h1>🟩 Resultado da Comparação</h1>
+
+    <div th:if="${error}" class="error" th:text="${error}"></div>
+
+    <div class="diff-container">
+        <div class="file-column">
+            <h3>Arquivo 1</h3>
+            <pre th:utext="${file1Content}"></pre>
+        </div>
+        <div class="file-column">
+            <h3>Arquivo 2</h3>
+            <pre th:utext="${file2Content}"></pre>
+        </div>
+    </div>
+
+    <div class="buttons">
+        <a href="/" class="btn">Voltar</a>
+    </div>
+</div>
+</body>
+</html>

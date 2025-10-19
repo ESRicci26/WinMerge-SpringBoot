@@ -1,0 +1,12 @@
+OpenAPIConfig
+SQLiteDialect
+WebConfig
+ApiFornecedorController
+WebFornecedorController
+Fornecedor
+FornecedorRepository
+FornecedorService
+ApiRestFulWebSpringBootApplication
+listar.html
+formulario.html
+application.properties

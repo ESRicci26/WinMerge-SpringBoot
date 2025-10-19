@@ -1,0 +1,13 @@
+Open77APIConfig
+SQLiteDialect
+WebConfig
+ApiFornecedorControllerRicci
+WebFornecedorController
+Fornecedor
+FornecedorRepository
+FornecedorService
+ApiRestFulWebSpringBootApplication
+listar.html
+formulario.html
+
+application.propertiesCarol

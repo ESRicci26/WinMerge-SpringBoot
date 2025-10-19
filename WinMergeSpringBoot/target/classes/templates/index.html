@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Comparação de Arquivos</title>
+    <link rel="stylesheet" th:href="@{/css/style.css}">
+</head>
+<body>
+    <div class="container">
+        <h1>🟨 Comparador de Arquivos - Estilo WinMerge</h1>
+
+        <form action="/analyze" method="POST" enctype="multipart/form-data" class="upload-form">
+            <div class="row">
+                <label>Arquivo 1:</label>
+                <input type="file" name="file1" required>
+            </div>
+            <div class="row">
+                <label>Arquivo 2:</label>
+                <input type="file" name="file2" required>
+            </div>
+            <div class="row">
+                <button type="submit">Comparar</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
